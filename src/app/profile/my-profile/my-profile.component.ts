@@ -13,11 +13,9 @@ import { SmplcService } from "src/app/shared/service/smplc.service";
 export class MyProfileComponent {
   
   constructor(private service: SmplcService, private formBuilder :FormBuilder) {
-    this.user= JSON.parse(localStorage.getItem('SMPLUser'))
     this.getCompanyDetails();
   }
 
-  user:any;
   myProfile:FormGroup;
   companyDetails:any;
 
@@ -27,7 +25,7 @@ export class MyProfileComponent {
   getCompanyDetails() {
     let payload = {
       "request": {
-        "iCompanyID": this.user.companyId? 61:61
+        "iCompanyID": this.service.userDetails.companyId
       },
       "pageSize": 0,
       "pageNumber": 0
@@ -49,7 +47,7 @@ export class MyProfileComponent {
   
   onsubmit() {
     let payload = this.myProfile.value;
-    payload["iCompanyID"]= this.user.companyId;
+    payload["iCompanyID"] = this.service.userDetails.companyId;
     // Address1: ["Please enter address 1"]
     // CityName: ["Please enter city name"]
     // ICountryId: ["Please enter country name"]

@@ -22,7 +22,7 @@ export class ManageUsersComponent {
   public userList =[]
   public item = 'y'
   assessorLoginDetails() {
-    let payload = { "iCompanyId": JSON.parse(localStorage.getItem('SMPLUser')).companyId ? 107 : 107, "userRole": JSON.parse(localStorage.getItem('SMPLUser')).userRole ? "Admin" : "Admin", "email": "stark@yopmail.com", "iAssessorId": 0}
+    let payload = { "iCompanyId": this.service.userDetails.companyId ? 107 : 107, "userRole": this.service.userDetails.userRole ? "Admin" : "Admin", "email": "stark@yopmail.com", "iAssessorId": 0}
     this.service.assessorLoginDetails(payload).subscribe((res) => {
         console.log(res)
     }, (err) => {
@@ -36,7 +36,7 @@ export class ManageUsersComponent {
         "iUserId": 0,
           "iCompanyID": 0,
             "documentId": 0,
-        "token": JSON.parse(localStorage.getItem('SMPLUser')).token
+        "token": this.service.userDetails.token
       },
       "pageSize": 0,
         "pageNumber": 0

@@ -15,7 +15,6 @@ import { SelfAssessmentDashbroadDialog } from "./dialog/self-assessment-dashbroa
 export class SelfAssessmentDashbroadComponent {
   assesmentList: any;
   constructor(public dialog: MatDialog, private service: SmplcService, private route: Router) {}
-
   openDialog() {
     this.dialog.open(SelfAssessmentDashbroadDialog);
   }
@@ -27,7 +26,7 @@ export class SelfAssessmentDashbroadComponent {
   getDashboadAssesmet() {
     let payload = {
       "request": {
-        "iCompanyID": JSON.parse(localStorage.getItem('SMPLUser')).companyId ? 61:61    }
+        "iCompanyID": this.service.userDetails.companyId  }
     }
     this.service.getAllAssesmentDetails(payload).subscribe((res)=> {
       this.assesmentList = res.items;
@@ -40,7 +39,7 @@ export class SelfAssessmentDashbroadComponent {
     console.log(args)
     let payload = {
       "request": {
-        "iCompanyID": JSON.parse(localStorage.getItem('SMPLUser')).companyId ,
+        "iCompanyID": this.service.userDetails.companyId ,
         "iCompanyAssessmentID": args.iCompanyAssessmentID
       }
     }
@@ -75,7 +74,7 @@ export class SelfAssessmentDashbroadComponent {
     let payload = {
       "request": {
         "tenantId": 0,
-        "token": JSON.parse(localStorage.getItem('SMPLUser')).token,
+        "token": this.service.userDetails.token,
         "iDocId": 0,
         // "sDocName": "string",
         // "sName": "string",

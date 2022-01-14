@@ -8,8 +8,10 @@ import { HttpClient, HttpHeaders } from '@angular/common/http';
   providedIn: 'root'
 })
 export class SmplcService {
-
-  constructor(private http: HttpClient ) {}
+  userDetails:any
+  constructor(private http: HttpClient ) {
+    this.userDetails = JSON.parse(localStorage.getItem('SMPLUser'));
+  }
 
   getAllCompanyDetails() {
     return this.http.get(endPoints.companyAssesment)

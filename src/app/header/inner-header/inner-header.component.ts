@@ -45,11 +45,11 @@ export class InviteDialog {
 
   ngOnInit() {
     this.getselfAssesmetList()
-  }
+   }
   getselfAssesmetList() {
     let payload = {
       "request": {
-        "token": JSON.parse(localStorage.getItem('SMPLUser')).token,
+        "token": this.service.userDetails.token,
       },
       "pageSize": 0,
       "pageNumber": 0
