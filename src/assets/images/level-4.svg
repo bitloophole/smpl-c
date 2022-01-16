@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="70.502" height="97.748" viewBox="0 0 70.502 97.748">
+  <defs>
+    <filter id="Path_7518" x="3.041" y="15.919" width="64.421" height="55.817" filterUnits="userSpaceOnUse">
+      <feOffset dy="12" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feFlood flood-color="#101d2d" flood-opacity="0.651"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#95afdb"/>
+    </linearGradient>
+    <filter id="Path_7522" x="0" y="1.387" width="70.502" height="60.285" filterUnits="userSpaceOnUse">
+      <feOffset dy="12" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2.5" result="blur-2"/>
+      <feFlood flood-color="#101d2d" flood-opacity="0.651"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-3" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#3565b9"/>
+      <stop offset="1" stop-color="#162a6f"/>
+    </linearGradient>
+    <filter id="Ellipse_591" x="5.36" y="33.466" width="59.782" height="64.282" filterUnits="userSpaceOnUse">
+      <feOffset dy="12" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2.5" result="blur-3"/>
+      <feFlood flood-color="#101d2d" flood-opacity="0.651"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-5" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#02c9d3"/>
+      <stop offset="0.2" stop-color="#74f0f6"/>
+      <stop offset="0.35" stop-color="#a0f7fb"/>
+      <stop offset="0.75" stop-color="#00edff"/>
+      <stop offset="1" stop-color="#07d1db"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-6" x1="0.5" y1="1" x2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#07d1db"/>
+      <stop offset="0.2" stop-color="#5eeef5"/>
+      <stop offset="0.35" stop-color="#9cf6fa"/>
+      <stop offset="0.75" stop-color="#00edff"/>
+      <stop offset="1" stop-color="#07d1db"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-7" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#07d1db"/>
+      <stop offset="0.2" stop-color="#5ef5fc"/>
+      <stop offset="0.35" stop-color="#a5f8fc"/>
+      <stop offset="0.75" stop-color="#00edff"/>
+      <stop offset="1" stop-color="#07d1db"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-8" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#07d1db"/>
+      <stop offset="0.2" stop-color="#69f5fc"/>
+      <stop offset="0.35" stop-color="#92f7fc"/>
+      <stop offset="0.75" stop-color="#00edff"/>
+      <stop offset="1" stop-color="#07d1db"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-9" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#07d1db"/>
+      <stop offset="0.2" stop-color="#58e7ee"/>
+      <stop offset="0.35" stop-color="#9ef6fa"/>
+      <stop offset="0.564" stop-color="#49f1fd"/>
+      <stop offset="0.75" stop-color="#00edff"/>
+      <stop offset="1" stop-color="#07d1db"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-10" x1="0.5" y1="1" x2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#07d1db"/>
+      <stop offset="0.2" stop-color="#68f2f9"/>
+      <stop offset="0.35" stop-color="#a3f8fd"/>
+      <stop offset="0.75" stop-color="#00edff"/>
+      <stop offset="1" stop-color="#07d1db"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-11" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#07d1db"/>
+      <stop offset="0.2" stop-color="#74f3fa"/>
+      <stop offset="0.35" stop-color="#9df5f9"/>
+      <stop offset="0.75" stop-color="#00edff"/>
+      <stop offset="1" stop-color="#07d1db"/>
+    </linearGradient>
+  </defs>
+  <g id="level-4" transform="translate(-2330.699 -220.99)">
+    <g transform="matrix(1, 0, 0, 1, 2330.7, 220.99)" filter="url(#Path_7518)">
+      <path id="Path_7518-2" data-name="Path 7518" d="M537.832,187.314v19.081a5.143,5.143,0,0,0,2.572,4.454l22.139,12.782,22.139-12.782a5.143,5.143,0,0,0,2.572-4.454V187.314Z" transform="translate(-527.29 -171.4)" fill="#1d2840"/>
+    </g>
+    <path id="Path_7519" data-name="Path 7519" d="M534.565,184.056v20.687a5.4,5.4,0,0,0,2.7,4.678l23.249,13.423,23.249-13.423a5.4,5.4,0,0,0,2.7-4.678V184.056Z" transform="translate(1805.436 51.617)" fill="url(#linear-gradient)"/>
+    <g id="Group_4561" data-name="Group 4561" transform="translate(2340.001 235.673)">
+      <path id="Path_7520" data-name="Path 7520" d="M551.864,184.056h-17.3v20.687a5.4,5.4,0,0,0,2.7,4.678l14.6,8.429Z" transform="translate(-534.565 -184.056)" fill="#162a6f"/>
+      <path id="Path_7521" data-name="Path 7521" d="M625.825,184.056v33.793l14.6-8.429a5.4,5.4,0,0,0,2.7-4.678V184.056Z" transform="translate(-591.226 -184.056)" fill="#162a6f"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 2330.7, 220.99)" filter="url(#Path_7522)">
+      <path id="Path_7522-2" data-name="Path 7522" d="M529.812,148.985v21.429a5.777,5.777,0,0,0,2.888,5l24.863,14.354,24.863-14.354a5.777,5.777,0,0,0,2.888-5V148.985Z" transform="translate(-522.31 -147.6)" fill="#1d2840"/>
+    </g>
+    <path id="Path_7523" data-name="Path 7523" d="M526.143,145.326v23.232a6.065,6.065,0,0,0,3.033,5.253l26.109,15.074,26.109-15.074a6.066,6.066,0,0,0,3.033-5.253V145.326Z" transform="translate(1810.665 75.663)" fill="url(#linear-gradient)"/>
+    <g id="Group_4562" data-name="Group 4562" transform="translate(2336.808 220.99)">
+      <path id="Path_7524" data-name="Path 7524" d="M545.571,145.326H526.143v23.232a6.065,6.065,0,0,0,3.033,5.253l16.4,9.466Z" transform="translate(-526.143 -145.326)" fill="url(#linear-gradient-3)"/>
+      <path id="Path_7525" data-name="Path 7525" d="M628.633,145.326v37.952l16.4-9.466a6.066,6.066,0,0,0,3.033-5.253V145.326Z" transform="translate(-589.776 -145.326)" fill="url(#linear-gradient-3)"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 2330.7, 220.99)" filter="url(#Ellipse_591)">
+      <circle id="Ellipse_591-2" data-name="Ellipse 591" cx="22.391" cy="22.391" r="22.391" transform="translate(12.86 33.47)" fill="#1d2840"/>
+    </g>
+    <circle id="Ellipse_604" data-name="Ellipse 604" cx="23.512" cy="23.512" r="23.512" transform="translate(2342.438 253.335)" fill="url(#linear-gradient-5)"/>
+    <circle id="Ellipse_605" data-name="Ellipse 605" cx="19.281" cy="19.281" r="19.281" transform="translate(2346.669 257.566)" fill="url(#linear-gradient-6)"/>
+    <circle id="Ellipse_606" data-name="Ellipse 606" cx="17.614" cy="17.614" r="17.614" transform="translate(2348.336 259.232)" fill="url(#linear-gradient-7)" style="mix-blend-mode: multiply;isolation: isolate"/>
+    <circle id="Ellipse_607" data-name="Ellipse 607" cx="16.849" cy="16.849" r="16.849" transform="translate(2349.102 259.998)" fill="url(#linear-gradient-8)"/>
+    <circle id="Ellipse_613" data-name="Ellipse 613" cx="13.763" cy="13.763" r="13.763" transform="translate(2352.188 263.084)" fill="url(#linear-gradient-9)" style="mix-blend-mode: screen;isolation: isolate"/>
+    <path id="Path_7538" data-name="Path 7538" d="M588.138,267.471l3.241,5.089,5.841,1.509-3.838,4.654.37,6.022-5.613-2.212-5.613,2.212.369-6.022-3.838-4.654,5.841-1.509Z" transform="translate(1777.813 -0.173)" fill="url(#linear-gradient-10)"/>
+    <path id="Path_7539" data-name="Path 7539" d="M590.336,284.03l-4.783,1.885.315-5.131-3.271-3.966,4.978-1.286,2.761-4.336,2.761,4.336,4.978,1.286-3.271,3.966.315,5.131Z" transform="translate(1775.614 -2.485)" fill="url(#linear-gradient-11)"/>
+  </g>
+</svg>

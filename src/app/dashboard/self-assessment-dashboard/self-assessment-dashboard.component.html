@@ -34,13 +34,31 @@
                                                 <li><button *ngIf="item.assesmentStatusMaster.sStatusName ==='Draft'" class="draft">{{item.assesmentStatusMaster.sStatusName}}</button>
                                                 </li>
                                                 <li><button *ngIf="item.assesmentStatusMaster.sStatusName ==='In Progress'" class="in-progress">{{item.assesmentStatusMaster.sStatusName}}</button></li>
+                                                <li><button *ngIf="item.assesmentStatusMaster.sStatusName ==='Verified' || item.assesmentStatusMaster.sStatusName ==='Completed'"
+                                                        class="success">{{item.assesmentStatusMaster.sStatusName}}</button></li>
                                             </ul>
                                         </div>
                                     </div>
                                     <div class="box-2">
                                         <div class="sub-box">
                                             <div class="level">Level - {{item.iLevelId}}</div>
-                                            <img src="../../../assets/images/medal.svg" />
+                                            <span [ngSwitch]="item.iLevelId">
+                                                <span *ngSwitchCase="1" >
+                                                <img src="../../../assets/images/level-1.svg" />
+                                                </span>
+                                                <span *ngSwitchCase="2" >
+                                                    <img src="../../../assets/images/level-2.svg" />
+                                                </span>
+                                                <span *ngSwitchCase="3" >
+                                                    <img src="../../../assets/images/level-3.svg" />
+                                                </span>
+                                                <span *ngSwitchCase="4" >
+                                                    <img src="../../../assets/images/level-4.svg" />
+                                                </span>
+                                                <span *ngSwitchCase="5" >
+                                                    <img src="../../../assets/images/level-5.svg" />
+                                                </span>
+                                            </span>
                                         </div>
                                         <div class="sub-box">
                                             <ul>
