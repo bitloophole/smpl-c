@@ -5,18 +5,17 @@ import { MatPaginator, PageEvent } from "@angular/material/paginator";
 import { MatTableDataSource } from "@angular/material/table";
 import { Router } from "@angular/router";
 import { SmplcService } from 'src/app/shared/service/smplc.service';
-import { SelfAssessmentDashbroadDialog } from "./dialog/self-assessment-dashbroad-dialog.component";
-
+import { SelfAssessmentDashboardDialog } from "./dialog/self-assessment-dashboard-dialog.component";
 @Component({
-  selector: "app-self-assessment-dashbroad",
-  templateUrl: "./self-assessment-dashbroad.component.html",
-  styleUrls: ["./self-assessment-dashbroad.component.scss"],
+  selector: "app-self-assessment-dashboard",
+  templateUrl: "./self-assessment-dashboard.component.html",
+  styleUrls: ["./self-assessment-dashboard.component.scss"],
 })
-export class SelfAssessmentDashbroadComponent {
+export class SelfAssessmentDashboardComponent {
   assesmentList: any;
   constructor(public dialog: MatDialog, private service: SmplcService, private route: Router) {}
   openDialog() {
-    this.dialog.open(SelfAssessmentDashbroadDialog);
+    this.dialog.open(SelfAssessmentDashboardDialog);
   }
 
   ngOnInit() {

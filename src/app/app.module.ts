@@ -27,12 +27,12 @@ import { InnerHeaderComponent } from "./header/inner-header/inner-header.compone
 import { AdminDashboardComponent } from "./dashboard/admin-dashboard/admin-dashboard.component";
 import { AssessorsComponent } from "./assessors/assessors.component";
 import { ManageUsersComponent, ManageUsersDialog } from "./manage-users/manage-users.component";
-import { SelfAssessmentDashbroadComponent } from "./dashboard/self-assessment-dashbroad/self-assessment-dashbroad.component";
+import { SelfAssessmentDashboardComponent } from "./dashboard/self-assessment-dashboard/self-assessment-dashboard.component";
 import { AssessmentComponent } from "./assessment/assessment.component";
 import {MatProgressBarModule} from '@angular/material/progress-bar';
 import { ChartsModule } from 'ng2-charts';
 import { AuthInterceptor } from './auth/auth.interceptor';
-import { SelfAssessmentDashbroadDialog } from "./dashboard/self-assessment-dashbroad/dialog/self-assessment-dashbroad-dialog.component";
+import { SelfAssessmentDashboardDialog } from "./dashboard/self-assessment-dashboard/dialog/self-assessment-dashboard-dialog.component";
 
 
 @NgModule({
@@ -58,17 +58,18 @@ import { SelfAssessmentDashbroadDialog } from "./dashboard/self-assessment-dashb
     LoginComponent,
     ForgotPasswordComponent,
     ChangePasswordComponent,
-    SelfAssessmentDashbroadDialog,
     MyProfileComponent,
     LogoHeaderComponent,
     InnerHeaderComponent,
     AdminDashboardComponent,
+    SelfAssessmentDashboardDialog,
     CompanyProfileComponent,
     AssessorProfileComponent,
     AssessorsComponent,
     ManageUsersComponent,
     ManageUsersDialog,
-    SelfAssessmentDashbroadComponent,
+    SelfAssessmentDashboardComponent,
+    LogoHeaderComponent,
     AssessmentComponent],
   providers: [
     { provide: HTTP_INTERCEPTORS, useClass: AuthInterceptor, multi: true }

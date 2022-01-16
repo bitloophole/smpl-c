@@ -22,7 +22,7 @@ export class ManageUsersComponent {
   public userList =[]
   public item = 'y'
   assessorLoginDetails() {
-    let payload = { "iCompanyId": this.service.userDetails.companyId ? 107 : 107, "userRole": this.service.userDetails.userRole ? "Admin" : "Admin", "email": "stark@yopmail.com", "iAssessorId": 0}
+    let payload = { "iCompanyId": this.service.userDetails.companyId, "userRole": this.service.userDetails.userRole, "email": this.service.userDetails.email, "iAssessorId": 0}
     this.service.assessorLoginDetails(payload).subscribe((res) => {
         console.log(res)
     }, (err) => {

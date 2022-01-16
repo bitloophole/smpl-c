@@ -36,7 +36,7 @@ export class LoginComponent {
      let payload = this.loginForm.value;
       this.service.login(payload).subscribe((res)=> {
         if (res.isSuccess) {
-          this.router.navigate(['/selfassessment-dashbroad'])
+          this.router.navigate(['/selfassessment-dashboard'])
         } else {
           alert(res.successMessage)
         }

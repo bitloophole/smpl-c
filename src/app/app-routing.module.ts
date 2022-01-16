@@ -9,7 +9,7 @@ import { MyProfileComponent } from "./profile/my-profile/my-profile.component";
 import { AdminDashboardComponent } from "./dashboard/admin-dashboard/admin-dashboard.component";
 import { AssessorsComponent } from "./assessors/assessors.component";
 import { ManageUsersComponent } from "./manage-users/manage-users.component";
-import { SelfAssessmentDashbroadComponent } from "./dashboard/self-assessment-dashbroad/self-assessment-dashbroad.component";
+import { SelfAssessmentDashboardComponent } from "./dashboard/self-assessment-dashboard/self-assessment-dashboard.component";
 import { AssessmentComponent } from "./assessment/assessment.component";
 import { ChangePasswordComponent } from "./auth/change-password/change-password.component";
 
@@ -23,7 +23,7 @@ const routes: Routes = [
   { path: "admin-dashboard", component: AdminDashboardComponent },
   { path: "assessors", component: AssessorsComponent },
   { path: "manageusers", component: ManageUsersComponent },
-  { path: "selfassessment-dashbroad", component: SelfAssessmentDashbroadComponent },
+  { path: "selfassessment-dashboard", component: SelfAssessmentDashboardComponent },
   { path: "assessment", component: AssessmentComponent },
   
   

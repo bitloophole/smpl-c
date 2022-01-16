@@ -5,14 +5,15 @@
                 <img src="../../assets/images/logo.png" />
             </div>
             <div class="top-section__left__welcome text-right">
-                Welcome :<span> {{'TODo'}}</span>
+                Welcome :<span> {{service.userDetails.email}}</span>
             </div>
         </div>
         <div class="top-section__right text-right">
             <div class="top-section__right__nav" (clickOutside)="toggle()">
                 <ul>
-                    <li><a mat-button (click)="openInviteDialog()">Invite</a></li>
-                    <li><a [routerLink]="['/company-profile']">Company Details</a></li>
+                    <li *ngIf="service.userDetails.userRole === 'Superadmin'" ><a mat-button (click)="openInviteDialog()">Invite</a></li>
+                    <!-- <li><a [routerLink]="['/company-profile']">Company Details</a></li> -->
+                    <li><a [routerLink]="['/selfassessment-dashboard']">Home</a></li>
                     <li><a (click)="toggle()">My Administration </a>
                             <div  *ngIf="isHidden" class="drop-down">
                                 <div> <a [routerLink]="['/manageusers']">Mange Users</a></div>

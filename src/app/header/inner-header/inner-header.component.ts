@@ -14,7 +14,7 @@ export class InnerHeaderComponent {
 
   isHidden:boolean = false;
   isHidden1: boolean = false;
-  constructor(public dialog: MatDialog) {}
+  constructor(public dialog: MatDialog, public service: SmplcService) {}
   
   openInviteDialog(){
     this.dialog.open(InviteDialog);
@@ -41,7 +41,7 @@ export class InnerHeaderComponent {
   styleUrls:['dialog/invite-dialog.component.scss']
 })
 export class InviteDialog {
-  constructor(public service: SmplcService) { }
+  constructor(private service: SmplcService) { }
 
   ngOnInit() {
     this.getselfAssesmetList()

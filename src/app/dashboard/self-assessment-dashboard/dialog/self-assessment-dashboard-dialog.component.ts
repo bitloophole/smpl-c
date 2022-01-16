@@ -7,11 +7,11 @@ import { MatTableDataSource } from "@angular/material/table";
 import { SmplcService } from 'src/app/shared/service/smplc.service';
 
 @Component({
-  selector: 'self-assessment-dashbroad-dialog',
-  templateUrl: 'self-assessment-dashbroad-dialog.component.html',
-  styleUrls:['self-assessment-dashbroad-dialog.component.scss']
+  selector: 'self-assessment-dashboard-dialog',
+  templateUrl: 'self-assessment-dashboard-dialog.component.html',
+  styleUrls:['self-assessment-dashboard-dialog.component.scss']
 })
-export class SelfAssessmentDashbroadDialog {
+export class SelfAssessmentDashboardDialog {
   listData: any;
   selfAssessmentForm: FormGroup;
   constructor(private service: SmplcService, private formBuilder :FormBuilder){}

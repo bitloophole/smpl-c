@@ -1,19 +1,19 @@
 import { async, ComponentFixture, TestBed } from "@angular/core/testing";
 
-import { SelfAssessmentDashbroadComponent } from "./self-assessment-dashbroad.component";
+import { SelfAssessmentDashboardComponent } from "./self-assessment-dashboard.component";
 
 describe("UserRegisterComponent", () => {
-  let component: SelfAssessmentDashbroadComponent;
-  let fixture: ComponentFixture<SelfAssessmentDashbroadComponent>;
+  let component: SelfAssessmentDashboardComponent;
+  let fixture: ComponentFixture<SelfAssessmentDashboardComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [SelfAssessmentDashbroadComponent]
+      declarations: [SelfAssessmentDashboardComponent]
     }).compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(SelfAssessmentDashbroadComponent);
+    fixture = TestBed.createComponent(SelfAssessmentDashboardComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
